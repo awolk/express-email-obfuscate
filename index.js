@@ -1,6 +1,6 @@
 var interceptor = require('express-interceptor');
 
-exports = interceptor(function (req, res) {
+module.exports = interceptor(function (req, res) {
     return {
         isInterceptable: function () {
             return /text\/html/.test(res.get('Content-Type'));
