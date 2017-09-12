@@ -1,0 +1,21 @@
+{
+  "name": "express-email-obfuscate",
+  "version": "1.0.0",
+  "description": "Express middleware to find and replace email addresses with HTML entities",
+  "main": "index.js",
+  "keywords": [
+    "email",
+    "mail",
+    "address",
+    "obfuscate",
+    "obfuscation",
+    "entity",
+    "express",
+    "hide"
+  ],
+  "author": "Aidan Wolk (http://awolk.me)",
+  "license": "ISC",
+  "dependencies": {
+    "express-interceptor": "^1.2.0"
+  }
+}
